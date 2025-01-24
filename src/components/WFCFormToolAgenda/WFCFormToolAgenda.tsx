@@ -74,6 +74,9 @@ export const WFCFormToolAgenda = () => {
                     minDate={subDays(new Date(), 0)}
                     maxDate={addDays(new Date(), Number(maxDaysToSchedule))}
                   />
+                  <pre>
+                    {JSON.stringify(minTime)} - {JSON.stringify(maxTime)}
+                  </pre>
     </div>
   )
 }

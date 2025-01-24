@@ -44,9 +44,11 @@ export const useWFCFormToolAgenda = (objConf) => {
     }));
     // Encuentra el intervalo de tiempo correspondiente al día especificado
     const timeForDay = formattedIntervals.find((item) => item.day === day);
+    console.log(date);
     console.log(timeForDay)
     if (timeForDay) {
       const { initialHour, finalHour } = timeForDay;
+      console.log(new Date())
       // Configura el tiempo mínimo usando la hora inicial
       setMinTime(
         setHours(
