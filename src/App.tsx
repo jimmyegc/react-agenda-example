@@ -4,8 +4,8 @@ function App() {
 
   return (<div>
     <h2>Examples</h2>
-    {/* <WFCFormToolAgenda />
-    <TabbedForm /> */}
+    <WFCFormToolAgenda />
+    <TabbedForm />
   </div>)
 }
 
